@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #F1B4AC;
+    text-align: center;
+    margin-top: 11rem;
+}
+
+h1{
+    font-size: 2.2rem;
+}
+
+#todo-container {
+    margin-top: 20px;
+    
+}
+
+#task-input {
+    padding: 0.6rem;
+    width: 300px;
+    margin-right: 10px;
+    border-radius: 5px;
+    outline: none;
+}
+input::placeholder {
+    font-size: 0.9rem;
+    color: rgb(49, 48, 48);
+}
+
+.taskItem.checked {
+    background: rgb(233, 114, 114);;
+    color: black;
+    text-decoration: line-through;
+    cursor: pointer;
+  }
+
+#add-btn {
+    padding: 8px 20px;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 5px;
+
+}
+
+#add-btn:hover {
+    background-color: rgb(233, 114, 114);
+    color: #000000;
+}
+
+ul {
+    list-style: none;
+    margin-top: 1rem; 
+}
+ul li{
+    user-select: none;
+}
+
+.delteBtn {
+    padding: 6px 8px;
+    border-radius: 3px;
+    margin: 2rem;
+}
